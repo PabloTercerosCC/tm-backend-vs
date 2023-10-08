@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Task_Manager_VS.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("/")]
 public class TasksController : ControllerBase
 {
     private readonly TasksService _tasksService;
